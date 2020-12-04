@@ -171,8 +171,8 @@ def player_numbers(team_name)
 end
 
 def player_stats(name)
-  game_hash.map do |team, game_data|
-return game_data
+  game_hash.each do |team, game_data|
+ game_data.map
 end
 end
 
