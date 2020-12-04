@@ -172,8 +172,9 @@ end
 
 def player_stats(name)
   game_hash.each do |team, game_data|
- game_data.map
-end
+    game_data[:players].each do |player|
+      if player[:player_name] == name
+        return player
 end
 
 
