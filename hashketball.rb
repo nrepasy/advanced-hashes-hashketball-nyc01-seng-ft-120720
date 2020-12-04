@@ -173,6 +173,6 @@ end
 def player_stats(name)
   game_hash.map do |team, game_data|
 end
-
+end
 
 
